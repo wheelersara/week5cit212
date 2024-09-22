@@ -1,0 +1,296 @@
+.container{
+    background-color: #F2CF63;
+    border-radius: 5%;
+    height: 600px;
+    width: 400px;
+}
+
+.interior{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: #003936;
+    border-radius: 5%;
+    height: 575px;
+    width: 375px;
+}
+
+
+.pokepicture img{
+    position: absolute;
+    max-width: none;
+    border: 2px solid #CFC6C1;
+    border-radius: 1%;
+    width: 320px;
+    height: auto;
+    top: 52px;
+    left: 45px;
+}
+
+.nametagtop{
+    position: absolute;
+    border-radius: 20px;
+    background-color: #234F51;
+    width: 240px;
+    height: 30px;
+    top:20px;
+    left:60px
+}
+
+.nametagtop p {
+    position: absolute;
+    color: white;
+    font-size: 20pt;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    left: 20px;
+    top:-28px;
+}
+
+.nametagbottom{
+    position: absolute;
+    border-radius: 20px;
+    background-color: #CFC6C1;
+    width: 245px;
+    height: 30px;
+    top:20px;
+    left:60px
+
+}
+.stagetag{
+    position: absolute;
+    border-radius: 20px;
+    border: 2px solid gray;
+    background-color: #D2D1D1;
+    width: 50px;
+    height: 20px;
+    top:35px;
+    left: 25px
+}
+
+.stagetag p{
+    position: absolute;
+    color: gray;
+    font-size: 7pt;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-style: italic;
+    top: -5px;
+    left: 10px;
+}
+
+
+.poketype img{
+    position: absolute;
+    width: 30px;
+    height:auto;
+    top: 20px;
+    left: 360px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.hptag p{
+    position: absolute;
+    color: white;
+    font-size: 8pt;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-style: bold;
+    top: 28px;
+    left: 310px;
+}
+
+.hpnumtag p{
+    position: absolute;
+    color: white;
+    font-size: 16pt;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    top: 8px;
+    left: 325px;
+}
+
+.evolutionbackground{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    background-color: #D2D1D1;
+    border: 2px solid gray;
+    border-radius: 10px;
+    top:58px;
+    left: 25px;
+}
+
+.evolution img{
+    position: absolute;
+    width: 30px;
+    height:auto;
+    top: 60px;
+    left: 35px;
+}
+
+.evofromtag{
+    position: absolute;
+    width:175px;
+    height: 15px;
+    background-color: #DEDEDF;
+    border: 2px solid gray;
+    transform: skew(-45deg);
+    top:53px;
+    left:50px;
+}
+
+.evofromtag p{
+    position: fixed;
+    color: black;
+    font-size: 10pt;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    top: -11px;
+    left: 40px;
+    transform: skew(40deg);
+}
+
+.describe_poke_tag{
+    position: absolute;
+    width:320px;
+    height: 20px;
+    background-color: #DEDEDF;
+    border: 2px solid gray;
+    transform: skew(-45deg);
+    top:255px;
+    left: 40px;
+}
+
+.describe_poke_tag p{
+    position: fixed;
+    color: gray;
+    font-size: 10pt;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    top: -10px;
+    left: 30px;
+    transform: skew(43deg);
+}
+
+.bside h1{
+    position: absolute;
+    color: white;
+    font-size: 14pt;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    top: 315px;
+    left: 110px;
+}
+
+.bsidebody p{
+    position: absolute;
+    color: white;
+    font-size: 12pt;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    top: 335px;
+    left: 30px;
+}
+
+.bsidephoto img{
+    position: absolute;
+    width: 20px;
+    height:auto;
+    top: 325px;
+    left: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+
+.mnmirage h1{
+    position: absolute;
+    color: white;
+    font-size: 14pt;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    top: 415px;
+    left: 110px;
+}
+
+.mnmiragebody p2{
+    position: absolute;
+    color: white;
+    font-size: 12pt;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    top: 455px;
+    left: 30px;
+}
+
+
+.moonimg1 img{
+    position: absolute;
+    width: 20px;
+    height:auto;
+    top: 430px;
+    left: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.starone img{
+    position: relative;
+    width: 20px;
+    height:auto;
+    top: -178px;
+    left: 45px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.startwo img{
+    position: relative;
+    width: 20px;
+    height:auto;
+    top: -205px;
+    left: 68px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.weakresisttag{
+    position: absolute;
+    width:320px;
+    height: 20px;
+    background-color: #DEDEDF;
+    border: 2px solid gray;
+    border-radius: 20px;
+    top: 510px;
+    left:20px;
+}
+
+.weakresisttag p{
+    position: absolute;
+    color: black;
+    font-size: 10pt;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    top: -10px;
+}
+
+
+.retreattag{
+    position: absolute;
+    width:150px;
+    height: 20px;
+    background-color: #DEDEDF;
+    border: 3px solid #011712;
+    border-radius: 20px;
+    top: 510px;
+    left:240px;
+}
+
+.retreattag p{
+    position: absolute;
+    color: black;
+    font-size: 10pt;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    top: -11px;
+    left: 20px;
+}
+
+.retreattag img{
+    position: absolute;
+    width: 15px;
+    height: auto;
+    top: 3px;
+    left: 80px;
+
+}
